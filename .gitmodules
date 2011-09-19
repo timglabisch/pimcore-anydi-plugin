@@ -1,0 +1,3 @@
+[submodule "lib/Di"]
+	path = lib/Di
+	url = git@github.com:timglabisch/pimDI.git

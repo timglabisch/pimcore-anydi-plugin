@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+		<plugin>
+			<pluginName>Anydic</pluginName>
+			<pluginDescription><![CDATA[Dependency injection container for Pimcore]]></pluginDescription>
+            <pluginNiceName>AnyDIC</pluginNiceName>
+            <pluginIcon>/plugins/Anydic/static/img/pimunit.png</pluginIcon>
+			<pluginServer>plugins.anymotion.org</pluginServer>
+			<pluginVersion>0.1</pluginVersion>
+            <pluginRevision>1</pluginRevision>
+            <pluginBuildTimestamp>1300977922</pluginBuildTimestamp>
+            <pluginIframeSrc></pluginIframeSrc>
+            <pluginClassName>Anydic_Plugin</pluginClassName>
+			<pluginIncludePaths>
+				<path>/Anydic/lib</path>
+			</pluginIncludePaths>
+            <pluginNamespaces>
+                <namespace>Anydic</namespace>
+            </pluginNamespaces>
+		</plugin>
+</zend-config>
