@@ -3,9 +3,6 @@
 use de\any\di;
 use de\any\di\binder\parser\xml;
 
-interface iFoo {}
-class foo implements iFoo {}
-
 class Anydic_Controller_Action_Helper_Anydic extends Zend_Controller_Action_Helper_Abstract {
 
     protected function getDependencyFolders() {
@@ -44,7 +41,6 @@ class Anydic_Controller_Action_Helper_Anydic extends Zend_Controller_Action_Help
         $di = new di();
         $di->setBinderRepository($repository);
         $di->bind('\de\any\iDi')->to($di);
-        $di->bind('iFoo')->to('Foo');
         
         $di->justInject($this->getActionController());
     }

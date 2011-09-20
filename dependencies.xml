@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<di:bindings xmlns="http://www.w3.org/2001/XMLSchema-instance"
+      di:schemaLocation="http://anydi/mapping.xsd"
+      xmlns:di="lib/DI/test/fixtures/parse/xml/mapping.xsd">
+
+    <bind interface="Anydic_Testclass_iFoo" to="Anydic_Testclass_Foo" shared="true"/>
+
+</di:bindings>
